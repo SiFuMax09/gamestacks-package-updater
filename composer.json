@@ -1,0 +1,32 @@
+{
+    "name": "gamestacks/updater",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Gamestacks",
+            "email": "support@gamestacks.de",
+            "role": "Creator"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Gamestacks\\Updater\\": "src"
+        }
+    },
+    "require": {},
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gamestacks\\Updater\\CommandsServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "scripts": {}
+}
